@@ -49,7 +49,7 @@ Debugs:AddButton({
 	Title = "AnimationLogger",
 	Description = "Gets Animation",
 	Callback = function()
-		link
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/atkdw/scriptguis/refs/heads/main/AnimationLogger"))()
 	end
 })
 Debugs:AddButton({
